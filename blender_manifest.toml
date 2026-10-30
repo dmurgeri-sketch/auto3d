@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "auto3d"
+version = "0.4.0"
+name = "Auto3D"
+tagline = "Genera oggetti 3D pronti per i giochi"
+maintainer = "Auto3D contributors"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+[permissions]
+files = "Esporta i modelli GLB sul disco"
