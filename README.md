@@ -18,21 +18,25 @@ Funziona senza servizi a pagamento, senza account e senza connessione a internet
 
 - Blender 5.2 LTS (gratuito, da blender.org)
 
+## Installazione
+
+1. Scarica il file `auto3d_prototipo.py` da questa pagina: aprilo e clicca **Download raw file** (l'icona con la freccia verso il basso).
+2. In Blender vai in **Modifica → Preferenze → Add-on**.
+3. Clicca la piccola freccia in alto a destra e scegli **Installa da disco** (*Install from Disk*), poi seleziona il file scaricato.
+4. Cerca **Auto3D** nell'elenco e spunta la casella per attivarlo.
+
+Dopo l'installazione l'add-on resta attivo anche quando riapri Blender.
+
 ## Come si usa
 
-1. Apri Blender e vai nella scheda **Scripting**.
-2. Nell'editor di testo clicca **Apri**, scegli `auto3d_prototipo.py` e premi **Esegui script**.
-3. Torna alla scheda **Layout**, passa il mouse sulla Vista 3D e premi **N**: apri la scheda **Auto3D**.
-4. Scegli un preset, regola i cursori e premi **Genera**.
-5. Premi **Esporta GLB**. Se l'opzione LOD è attiva e il modello è abbastanza complesso, ottieni tre file: `_LOD0`, `_LOD1` e `_LOD2`.
-
-Per ora lo script va rieseguito ogni volta che si riapre Blender. L'installazione come add-on permanente è tra le cose da fare.
+1. Nella Vista 3D premi **N** e apri la scheda **Auto3D**.
+2. Scegli un preset, regola i cursori e premi **Genera**.
+3. Premi **Esporta GLB**. Il file viene salvato nel percorso indicato nel campo **File** (di default nella tua cartella utente). Se l'opzione LOD è attiva e il modello è abbastanza complesso, ottieni tre file: `_LOD0`, `_LOD1` e `_LOD2`.
 
 ## Prossimi passi
 
 - Altri preset (recinzioni, armi, edifici più vari)
 - Personaggi con scheletro automatico (Rigify) e animazioni libere da diritti
-- Installazione come vero add-on di Blender
 - Interfaccia ancora più semplice per chi non ha mai usato il 3D
 
 ## Contribuire
